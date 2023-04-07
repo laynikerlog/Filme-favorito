@@ -1,0 +1,59 @@
+body {
+    background: #d2d2c1 url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+    color: white;
+}
+
+#principal {
+    width: 97%;
+}
+
+#conteudo {
+    background: #3f3f3f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#rodape {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.7em;
+    text-align: center;
+    background-image: linear-gradient(to top, #000000, #235bd4, #000266);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        #000000,
+        #2477e4,
+        rgb(0, 13, 128)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+.img-pag {
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+}
